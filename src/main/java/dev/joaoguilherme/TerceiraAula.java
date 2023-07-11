@@ -1,7 +1,6 @@
 package dev.joaoguilherme;
 
-
-public class Main {
+public class TerceiraAula {
     public static void main(String[] args) {
         /*
             As classes Wrapper
