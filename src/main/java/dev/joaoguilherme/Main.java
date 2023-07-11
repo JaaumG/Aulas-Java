@@ -3,76 +3,98 @@ package dev.joaoguilherme;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+            As classes Wrapper
 
-        //As "bibliotecas" Math e String
+            Os tipos de dados 'int' 'double' 'char' 'boolean' ... São chamados de dados primitivos,
+            pois não há "algo" mais simples que eles, apenas guardam informações.
 
-        //Math inclui funcionalidades matematicas comumente utilizadas, seja trigonometricas, logaritmas, pontencias etc:
-        int x = 20, y =4;
-        System.out.println(Math.sqrt(y)); //Aqui está sendo feito a raiz quadrada de y -> √y
-        //sqrt é a sigla em ingles para SQuare RooT, que traduzindo é raiz quadrada.
-        System.out.println(Math.pow(x, y)); //Nessa funcionalidade é a potencia x está sendo elevado a y ou -> 20⁴
-        //pow é abreviação para power que neste contexto significa potencia (x to the power of y)
-        System.out.println(Math.abs(-31)); //Essa função é o modulo que (|-x| = x)
-        //abs é abreviação para absolute, traduzindo absoluto, ou seja o valor absoluto.
-        System.out.println(Math.log(20)); //Função de log natural (ln) e²⁰
+            Entretanto, há necessidades de converter, manipular estes dados
+            e para isso existem as classes Wrapper, classes que "embrulham" os dados primitivos
+            em outras palavras são "extensões" dos dados primitivos que vem com funcionalidades.
 
-        System.out.println(Math.random()); //Função para gerar um valor aleatório entre 0 e 1
-        //Random traduzido é aleatório
+            Suponhamos que temos a seguinte situação, temos um texto que representa um número inteiro
+            e queremos somar algo a esse número na forma de um texto.
 
-        System.out.println(Math.max(23, 54)); //Função para retornar entre os dois valores qual é o maior (54 > 23)
+        */
 
-        System.out.println(Math.min(3245, 24)); //Função para retornar entre os dois valores qual é o menor (24 < 3245)
+        String numero = "34";
 
-        //String inclui função para manipulações de textos
-        System.out.println(String.valueOf(3)); //Isso ira converter 3 para "3", obs são dados diferentes apesar de vermos da mesma forma.
-        //Tipo numerico e tipo textual são diferentes, tipo numerico você consegue fazer manipulações matematicas, textual não.
+        /* Se você simplesmente chamar a variável "numero" (sendo do tipo de um texto) e tentar somar algo a ela resultará
+         numa concatenação de texto:*/
 
-        String textoExemplo = "Isto é uma demonstração de texto";
-        //quanto se tem uma variavel do tipo String com conteudo dentro dela, podemos usar as funcionalidades de String para
-        //manipular esse texto.
-        System.out.println(textoExemplo);
-        //Podemos colocar o texto em CAIXA ALTA
-        System.out.println(textoExemplo.toUpperCase());
-        //Em caixa baixa
-        System.out.println(textoExemplo.toLowerCase());
+        System.out.println(numero + 1); // Resultado: 341
 
-        //Podemos pegar uma letra em uma posição específica (lembrando que posições no computador começa em 0)
-        System.out.println(textoExemplo.charAt(5));
+        /*
+        Para então podemos utilizar esse texto de forma aritmética, precisamos converter ele para um tipo de dado
+        Um jeito que de fato poderíamos convertê-lo seria fazer, por exemplo, uma função que recebe uma String e retorna esse valor
+        */
 
-        //Podemos converter a String para um vetor de caracteres
-        char[] vetorDeCaracteres = textoExemplo.toCharArray();
+        int numeroConvertido = converteStringParaInt(numero); //resultado -1 veja a função abaixo para entender
 
-        for (int i = 0; i < vetorDeCaracteres.length; i++) {
-            System.out.println("posição ["+i+"]: " + vetorDeCaracteres[i]);
+        /*Mas perceba a limitação da função, se for um texto diferente de um número entre 0 e 9 ele converte a -1
+
+        Você até pode tentar sofrer e fazer, por exemplo, um loop convertendo cada caractere utilizando o método da string (charAt())
+        mas felizmente você não precisa sofrer tanto.
+
+        As classes wrapper implementam essa funcionalidade para você, para utiliza-las é tão simples quanto foi utilizar as funções
+        da biblioteca Math e da Classe String
+
+        o nome das classes wrapper são os nomes dos tipos de dados primitivos com a primeira letra maiúscula (Integer, Double, Character, Boolean)
+        Exemplo:*/
+
+        int numeroConvertidoComWrapper = Integer.parseInt(numero); //O método valueOf() recebe um texto e retorna um inteiro
+        System.out.println(numeroConvertidoComWrapper + 1); // Resultado: 35
+
+        /*Outras funcionalidades das classes wrapper além de conversão são:
+           - Nullable: existe a possibilidade de um valor que é do tipo de wrapper possuir um valor nulo (null) enquanto o tipo primitivo não
+                Integer valor = null; (✔️)
+                int valor = null; (❌)
+           - Passar por referência: vimos em C que quando passamos um valor para uma função utilizando de ponteiros a função consegue alterar
+               o valor do dado que está em outra parte do código, em outra linguagem essa funcionalidade tambem existe, entretanto, é mais discreta,
+               portanto se você fizer uma função que recebe um dado do tipo primitivo (int, por exemplo) é dito que foi passado por valor, agora
+               se você fizer o mesmo com o tipo wrapper (Integer) é dito que foi passado por referência.
+
+        Esses são alguns exemplos de utilidades das classes wrapper.
+
+        Segue aqui as classes Wrapper e seus respectivos dados primitivos
+
+        Integer - int
+        Double - double
+        Character - char
+        Boolean - boolean
+        Byte - byte
+        Short - short
+        Long - long
+        Float - float
+
+        */
+    }
+
+    public static int converteStringParaInt(String texto){
+        switch (texto){
+            case "1":
+                return 1; //Observa que neste switch não está ocorrendo o uso do 'break', pois o switch para antes devido ao 'return'
+            case "2":
+                return 2;
+            case "3":
+                return 3;
+            case "4":
+                return 4;
+            case "5":
+                return 5;
+            case "6":
+                return 6;
+            case "7":
+                return 7;
+            case "8":
+                return 8;
+            case "9":
+                return 9;
+            case "0":
+                return 0;
+            default:
+                return -1;
         }
-        //podemos verificar se o conteudo da String é vazio ("")
-        System.out.println(textoExemplo.isEmpty());
-        //podemos verificar se conteudo da String está em branco ("   ")
-        System.out.println(textoExemplo.isBlank());
-
-
-        //Funções
-        //As funções são declaradas fora do "corpo" (oque está entre chaves é o corpo da função main () { corpo }) da função 'main'
-        //Para declarar funções iremos utilizar duas palavras que veremos oque significam mais para frente
-        //as palavras são public static, depois de digitar elas podemos definir o tipo de retorno da função, o nome dela, e os parametros
-        //os tipos de retorno são os tipos de dados que vimos na primeira aula, int char double String etc.. ou caso ela não tenha que retornar nada
-        //usasse o tipo 'void'
-
-        //parametros são os valores que uma função precisa para executar sua funcionalidade, em matematica vemos funções, por exemplo
-        // ƒ(x) = 3x² - 5x + 2
-        // neste caso a função ƒ possui o parametro x e ela retorna o resultado da equação em código seria algo desta forma:
-
-        imprimeNaTela(String.valueOf(ƒ(20)));
-        //ƒ (20)  = 3*20² - 5*20 + 2
-
-
-    }
-    public static double ƒ(int x){
-        return 3*Math.pow(x, 2) - 5*x + 2;
-    }
-
-
-    public static void imprimeNaTela(String texto){
-        System.out.println(texto);
     }
 }
