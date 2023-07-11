@@ -8,7 +8,7 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 
 * **Algoritmo** - Um algoritmo é uma sequência de passos que resolve um problema.
 * **Programa** - Um programa é um algoritmo escrito em uma linguagem de programação.
-* **Linguagem** de programação - Uma linguagem de programação é uma linguagem que permite que você escreva programas.
+* **Linguagem de programação** - Uma linguagem de programação é uma linguagem que permite que você escreva programas.
 * **Sintaxe** - A sintaxe de uma linguagem de programação é o conjunto de regras que define como um programa deve ser escrito.
 * **Bug** - Um bug é um erro em um programa.
 * **Debug** - Debug é o ato de encontrar e corrigir bugs em um programa.
