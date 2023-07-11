@@ -53,7 +53,7 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 ## Orientação a objetos:
 
 * [**Paradigma**](https://pt.wikipedia.org/wiki/Paradigma_de_programação) - Um paradigma é um modelo de programação.
-* **Orientação** a objetos - Orientação a objetos é um paradigma de programação que utiliza objetos.
+* **Orientação a objetos** - Orientação a objetos é um paradigma de programação que utiliza objetos.
 * **Classe** - Uma classe é uma "receita" para criar um objeto.
 * **Atributo** - Um atributo é uma variável associada a um objeto.
 * **Instanciar** - Instanciar é criar um objeto a partir de uma classe, ou seja, é criar um objeto usando a "receita" da classe.
