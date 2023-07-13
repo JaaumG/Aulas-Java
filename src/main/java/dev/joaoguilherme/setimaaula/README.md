@@ -11,3 +11,5 @@ public class Subclasse extends Superclasse {
 ```
 
 Tambem chamadas de classes filhas e classes pai, respectivamente.
+
+![image](https://github.com/JaaumG/Aulas-Java/assets/87271192/3f1f8594-5080-47f2-848c-7c97a1ddd617)
