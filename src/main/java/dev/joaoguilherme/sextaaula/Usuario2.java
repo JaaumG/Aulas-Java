@@ -25,23 +25,23 @@ public class Usuario2 {
         return apelido;
     }
 
-    public void setApelido(String apelido) {
-        this.apelido = apelido;
+    public void setApelido(String novoApelido) {
+        apelido = novoApelido;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmail(String novoEmail) {
+        email = novoEmail;
     }
 
     public String getSenha() {
         return "Ei isso é privado!";
     }
 
-    public void setSenha(String senha) {
-        this.senha = senha;
+    public void setSenha(String novaSenha) {
+        senha = novaSenha;
     }
 }
