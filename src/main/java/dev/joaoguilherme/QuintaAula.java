@@ -69,5 +69,11 @@ public class QuintaAula {
 
         Pessoa2 pessoa2 = new Pessoa2(21, "João Guilherme"); //Perceba que agora o construtor foi chamado e os atributos foram inicializados
         pessoa2.falar();
+
+        /*
+            Ao trabalhar com classes em java, é interessante colocá-las em seus arquivos próprios, para fazer isso, a única questão
+            é que o nome do arquivo seja o mesmo que a classe, logo se fossemos colocar a classe Pessoa2 em um arquivo separado, o nome
+            do arquivo deveria ser "Pessoa2.java"
+         */
     }
 }
