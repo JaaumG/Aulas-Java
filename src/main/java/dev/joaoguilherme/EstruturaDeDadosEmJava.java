@@ -1,7 +1,10 @@
 package dev.joaoguilherme;
 
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.LinkedList;
+import java.util.Stack;
+import java.util.TreeSet;
 
 public class EstruturaDeDadosEmJava {
     public static void main(String[] args) {

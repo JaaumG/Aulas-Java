@@ -9,7 +9,8 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 * **Algoritmo** - Um algoritmo é uma sequência de passos que resolve um problema.
 * **Programa** - Um programa é um algoritmo escrito em uma linguagem de programação.
 * **Linguagem de programação** - Uma linguagem de programação é uma linguagem que permite que você escreva programas.
-* **Sintaxe** - A sintaxe de uma linguagem de programação é o conjunto de regras que define como um programa deve ser escrito.
+* **Sintaxe** - A sintaxe de uma linguagem de programação é o conjunto de regras que define como um programa deve ser
+  escrito.
 * **Bug** - Um bug é um erro em um programa.
 * **Debug** - Debug é o ato de encontrar e corrigir bugs em um programa.
 
@@ -27,19 +28,23 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 * **Variável** - Uma variável é um nome que se refere a um valor.
 * **Atribuição** - Atribuição é o ato de associar um valor a uma variável.
 * **Casting** - Casting é a conversão de um tipo de dado para outro tipo de dado.
-* [**Porta Lógica**](https://pt.wikipedia.org/wiki/Porta_lógica) - Uma porta lógica é um circuito eletrônico que realiza uma operação lógica.
+* [**Porta Lógica**](https://pt.wikipedia.org/wiki/Porta_lógica) - Uma porta lógica é um circuito eletrônico que realiza
+  uma operação lógica.
 
 ## Tipos de dados:
 
 * **Tipo de dado** - Um tipo de dado é um conjunto de valores e operações que podem ser realizadas com esses valores.
 * **Inteiro** - Um inteiro é um número sem casas decimais.
-* [**Ponto flutuante** ](https://pt.wikipedia.org/wiki/Vírgula_flutuante)- Um ponto flutuante é um número com casas decimais.
+* [**Ponto flutuante** ](https://pt.wikipedia.org/wiki/Vírgula_flutuante)- Um ponto flutuante é um número com casas
+  decimais.
 * **Float** - Um float é um ponto flutuante com precisão simples.
 * **Double** - Um double é um ponto flutuante com o dobro de precisão.
-* [**Booleano**](https://pt.wikipedia.org/wiki/Álgebra_booliana) - Um booleano é um valor que pode ser verdadeiro ou falso.
+* [**Booleano**](https://pt.wikipedia.org/wiki/Álgebra_booliana) - Um booleano é um valor que pode ser verdadeiro ou
+  falso.
 * **String** - Uma string é uma sequência de caracteres.
 * **Caractere** - Um caractere é uma letra, número ou símbolo.
-* **Caractere** de escape - Um caractere de escape é um caractere com um significado especial, como, por exemplo, o caractere \n que representa uma quebra de linha.
+* **Caractere** de escape - Um caractere de escape é um caractere com um significado especial, como, por exemplo, o
+  caractere \n que representa uma quebra de linha.
 * **Concatenação** - Concatenação é o ato de juntar duas strings.
 
 ## Estruturas de dados:
@@ -56,7 +61,8 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 * **Orientação a objetos** - Orientação a objetos é um paradigma de programação que utiliza objetos.
 * **Classe** - Uma classe é uma "receita" para criar um objeto.
 * **Atributo** - Um atributo é uma variável associada a um objeto.
-* **Instanciar** - Instanciar é criar um objeto a partir de uma classe, ou seja, é criar um objeto usando a "receita" da classe.
+* **Instanciar** - Instanciar é criar um objeto a partir de uma classe, ou seja, é criar um objeto usando a "receita" da
+  classe.
 * **Objeto** - Um objeto é uma estrutura de dados que contém dados e funções chamadas métodos.
 * **Função** - Uma função é uma sequência de passos que resolve um problema, mas que não está associada a um objeto.
 * **Método** - Um método é uma sequência de passos que resolve um problema, mas que está associado a um objeto.
@@ -69,7 +75,8 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 * **Herança** - Herança é a capacidade de criar uma classe a partir de outra classe.
 * **Polimorfismo** - Polimorfismo é a capacidade de uma classe derivada sobrescrever um método da classe base.
 * **Sobrescrita** - Sobrescrita é a capacidade de uma classe derivada sobrescrever um método da classe base.
-* **Sobrecarga** - Sobrecarga é a capacidade de uma classe ter vários métodos com o mesmo nome, mas com parâmetros diferentes.
+* **Sobrecarga** - Sobrecarga é a capacidade de uma classe ter vários métodos com o mesmo nome, mas com parâmetros
+  diferentes.
 * **Encapsulamento** - Encapsulamento é a capacidade de esconder os detalhes de implementação de uma classe.
 * **Abstração** - Abstração é a capacidade de esconder os detalhes de implementação de uma classe.
 * **Interface** - Interface é um conjunto de métodos que uma classe deve implementar.
@@ -84,10 +91,14 @@ pode consultar esse arquivo sempre que tiver dúvidas.
 * **Coluna** - Uma coluna é um campo de dados em uma tabela.
 * **Chave primária** - Uma chave primária é um valor único que identifica uma linha em uma tabela.
 * **Chave estrangeira** - Uma chave estrangeira é um valor que referencia uma chave primária em outra tabela.
-* [**Relacionamento**](https://pt.wikipedia.org/wiki/Banco_de_dados_relacional) - Um relacionamento é uma associação entre duas tabelas.
-* **Relacionamento um para um** - Um relacionamento um para um é um relacionamento onde uma linha de uma tabela está associada a uma linha de outra tabela.
-* **Relacionamento um para muitos** - Um relacionamento um para muitos é um relacionamento onde uma linha de uma tabela está associada a várias linhas de outra tabela.
-* **Relacionamento muitos para muitos** - Um relacionamento muitos para muitos é um relacionamento onde várias linhas de uma tabela estão associadas a várias linhas de outra tabela.
+* [**Relacionamento**](https://pt.wikipedia.org/wiki/Banco_de_dados_relacional) - Um relacionamento é uma associação
+  entre duas tabelas.
+* **Relacionamento um para um** - Um relacionamento um para um é um relacionamento onde uma linha de uma tabela está
+  associada a uma linha de outra tabela.
+* **Relacionamento um para muitos** - Um relacionamento um para muitos é um relacionamento onde uma linha de uma tabela
+  está associada a várias linhas de outra tabela.
+* **Relacionamento muitos para muitos** - Um relacionamento muitos para muitos é um relacionamento onde várias linhas de
+  uma tabela estão associadas a várias linhas de outra tabela.
 
 ## Versionamento de código:
 

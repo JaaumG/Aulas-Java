@@ -70,8 +70,8 @@ public class TerceiraAula {
         */
     }
 
-    public static int converteStringParaInt(String texto){
-        switch (texto){
+    public static int converteStringParaInt(String texto) {
+        switch (texto) {
             case "1":
                 return 1; //Observa que neste switch não está ocorrendo o uso do 'break', pois o switch para antes devido ao 'return'
             case "2":

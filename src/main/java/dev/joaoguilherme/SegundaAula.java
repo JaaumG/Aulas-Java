@@ -7,7 +7,7 @@ public class SegundaAula {
         //As "bibliotecas" Math e String
 
         //Math inclui funcionalidades matematicas comumente utilizadas, seja trigonometricas, logaritmas, pontencias etc:
-        int x = 20, y =4;
+        int x = 20, y = 4;
         System.out.println(Math.sqrt(y)); //Aqui está sendo feito a raiz quadrada de y -> √y
         //sqrt é a sigla em ingles para SQuare RooT, que traduzindo é raiz quadrada.
         System.out.println(Math.pow(x, y)); //Nessa funcionalidade é a potencia x está sendo elevado a y ou -> 20⁴
@@ -43,7 +43,7 @@ public class SegundaAula {
         char[] vetorDeCaracteres = textoExemplo.toCharArray();
 
         for (int i = 0; i < vetorDeCaracteres.length; i++) {
-            System.out.println("posição ["+i+"]: " + vetorDeCaracteres[i]);
+            System.out.println("posição [" + i + "]: " + vetorDeCaracteres[i]);
         }
         //podemos verificar se o conteudo da String é vazio ("")
         System.out.println(textoExemplo.isEmpty());
@@ -67,12 +67,13 @@ public class SegundaAula {
 
 
     }
-    public static double ƒ(int x){
-        return 3*Math.pow(x, 2) - 5*x + 2;
+
+    public static double ƒ(int x) {
+        return 3 * Math.pow(x, 2) - 5 * x + 2;
     }
 
 
-    public static void imprimeNaTela(String texto){
+    public static void imprimeNaTela(String texto) {
         System.out.println(texto);
     }
 }

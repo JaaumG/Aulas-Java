@@ -55,29 +55,29 @@ public class PrimeiraAula {
         do {
             System.out.println(a);
             a++;
-        }while (a < 20);
+        } while (a < 20);
 
 
         //Exemplo While
         int b = 0;
-        while(b < 12){
+        while (b < 12) {
             System.out.println(b);
-            b ++;
+            b++;
         }
 
 
         //Condicionais
 
         //If-else
-        if(10> 230) { //verificação de condicional com simbolo de >
+        if (10 > 230) { //verificação de condicional com simbolo de >
             System.out.println("Algo de errado não está certo ");
-        }else{
+        } else {
             System.out.println("Tudo certo por aqui");
         }
 
         //Switch-case
         int variavelExemploSwitch = 5;
-        switch (variavelExemploSwitch){
+        switch (variavelExemploSwitch) {
             case 1:
                 System.out.println("A variavel vale 1");
                 break;
