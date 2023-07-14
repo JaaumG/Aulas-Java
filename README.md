@@ -17,3 +17,13 @@ Esse repositório foi criado para armazenar os códigos das aulas de Java.
 
 * **Dicionário**: [Link](https://github.com/JaaumG/Aulas-Java/blob/main/Dicionário%20de%20programação.md)
 * **Estrutura de dados em Java**: [Link](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/EstruturaDeDadosEmJava.java)
+
+## Tipos de convenções de nomenclatura
+
+![img.png](img.png)
+
+### Principais convenções para Java
+* camelCase: `nomeDeVariavel`, `nomeDeMetodo`
+* PascalCase: `NomeDeClasse`, `NomeDeInterface`
+* SCREAMING_SNAKE_CASE: `NOME_DE_ENUM`
+
