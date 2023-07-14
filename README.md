@@ -11,6 +11,7 @@ Esse repositório foi criado para armazenar os códigos das aulas de Java.
 * **Quinta Aula**: [Métodos e Construtores](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/QuintaAula.java)
 * **Sexta Aula**: [Acessibilidade, 'Getters' e 'Setters', Encapsulamento](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/sextaaula)
 * **Sétima Aula**: [Herança e Sobrescrever Métodos](https://github.com/JaaumG/Aulas-Java/tree/main/src/main/java/dev/joaoguilherme/setimaaula)
+* **Oitava Aula**: [Aprofundando na herança em Java](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/oitavaaula)
 
 ## Complementar
 
