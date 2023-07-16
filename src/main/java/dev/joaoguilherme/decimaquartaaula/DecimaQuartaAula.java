@@ -11,7 +11,7 @@ public class DecimaQuartaAula {
 		//O objeto File representa um arquivo ou diretório no disco rígido do computador.
 
 		//Instanciando um objeto File
-		File arquivo = new File("C:\\Windows\\Temp\\arquivo.txt"); //Esse é um arquivo que existe em meu computador
+		File arquivo = new File("C:\\Windows\\Temp\\arquivo.txt"); //O caminho do arquivo deve ser passado como parâmetro
 		if (!arquivo.exists()) { //Verificando se o arquivo existe
 			try {
 				arquivo.createNewFile(); //Caso não exista, cria o arquivo
