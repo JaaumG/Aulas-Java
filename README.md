@@ -14,6 +14,7 @@ Esse repositório foi criado para armazenar os códigos das aulas de Java.
 * **Oitava Aula**: [Aprofundando na herança em Java](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/oitavaaula)
 * **Nona Aula**: [Abstração, Classes abstratas, e interfaces](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/nonaaula)
 * **Décima Aula**: [Interfaces e Polimorfismo](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/decimaaula)
+* **Décima Primeira Aula**: [Tratamento de Exceções](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/decimaprimeiraaula)
 
 ## Complementar
 
