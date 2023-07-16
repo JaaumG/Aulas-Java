@@ -16,6 +16,7 @@ Esse repositório foi criado para armazenar os códigos das aulas de Java.
 * **Décima Aula**: [Interfaces e Polimorfismo](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/decimaaula)
 * **Décima Primeira Aula**: [Tratamento de Exceções](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/decimaprimeiraaula)
 * **Décima Segunda Aula**: [Assuntos não abordados](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/decimasegundaaula/README.md)
+* **Décima Terceira Aula**: [Conexão com o banco de dados](https://github.com/JaaumG/Aulas-Java/blob/main/src/main/java/dev/joaoguilherme/decimaterceiraaula)
 
 ## Complementar
 
