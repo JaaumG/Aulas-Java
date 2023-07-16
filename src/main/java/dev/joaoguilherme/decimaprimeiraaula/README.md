@@ -45,12 +45,12 @@ Para lançar uma exceção você pode usar a palavra-chave throw (que significa 
 ```java
 public class Exemplo {
 
-	public void metodoQueLancaExcecao() {
-                ... // Suponha que tenha um código aqui
-		if (!deuTudoCerto) {
-			throw new Exception("Deu tudo errado");
-		}
-	}
+    public void metodoQueLancaExcecao() {
+        ... // Suponha que tenha um código aqui
+        if (!deuTudoCerto) {
+            throw new Exception("Deu tudo errado");
+        }
+    }
 }
 
 ```
