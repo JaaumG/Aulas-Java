@@ -189,3 +189,8 @@ public class Main{
 ```
 
 Neste caso a chamada do método close() é feita automaticamente pelo java, e por isso, você não precisa chamar o método close().
+
+Um detalhe levemente cômico é que quando queremos disparar uma exceção usamos a palavra  `throw`,
+que significa jogar ou lançar, e para controlarmos uma exceção usamos a palavra `catch`, que significa pegar ou capturar.
+
+Ou seja, um joga e o outro pega.
