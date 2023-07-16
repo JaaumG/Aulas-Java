@@ -194,3 +194,32 @@ Um detalhe levemente cômico é que quando queremos disparar uma exceção usamo
 que significa jogar ou lançar, e para controlarmos uma exceção usamos a palavra `catch`, que significa pegar ou capturar.
 
 Ou seja, um joga e o outro pega.
+
+Continuando sobre exceções, há situações que você não deseja ter que lidar com o tratamento
+de exceções naquele escopo, e por isso, você pode usar a palavra `throws` no método, e especificar o tipo de exceção que o método pode lançar.
+
+```java
+
+public class Exemplo {
+    
+    public void metodoQueLancaExcecao() throws Exception {
+        throw new Exception();
+    }
+    
+}
+    
+```
+
+Desta forma, o método que chamar o método `metodoQueLancaExcecao()` terá que lidar com a exceção que o método `metodoQueLancaExcecao()` pode lançar.
+
+Mas neste caso está explicito que o método em questão lançara uma exceção, e caso você não a trate 
+ou não a lance novamente, você terá um erro de compilação, ou seja o seu código não ira ser compilado.
+
+Perceba que a diferença entre `throw` e `throws` é que `throw` é usado para lançar uma exceção, e `throws` é usado para especificar que o método pode lançar uma exceção.
+
+Caso você utilize o `throws` e não lance a exceção, você terá um erro de compilação.
+
+E caso você utilize o `throw` e não especifique que na assinatura do método que ele pode lançar uma exceção
+o seu código irá ser compilado normalmente, isso chamamos de exceções não verificadas. 
+No caso de exceções não verificadas, o compilador não irá verificar se você está tratando a exceção ou não.
+Já quando há o uso de `throws`, chamamos de exceções verificadas.
