@@ -33,5 +33,5 @@ Esse repositório foi criado para armazenar os códigos das aulas de Java.
 ### Principais convenções para Java
 * camelCase: `nomeDeVariavel`, `nomeDeMetodo`
 * PascalCase: `NomeDeClasse`, `NomeDeInterface`
-* SCREAMING_SNAKE_CASE: `NOME_DE_ENUM`
+* SCREAMING_SNAKE_CASE: `NOME_DE_ENUM`,`NOME_DE_CONSTANTE` (static final)
 
