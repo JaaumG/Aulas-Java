@@ -3,33 +3,29 @@ package uniara.prova;
 
 import java.util.Scanner;
 
-// Java  SDK 17
-
 /*
-1) Crie um projeto Java, uma classe Java “Prova1” e um método main (1,0).
-2) Desenvolva um menu com JoptionPane (preferencialmente) ou Scanner com as seguinte opções
-(1,0):
-1 – Cadastrar Pessoa
-2 - Alterar Pessoa
-3 – Excluir Pessoa
-4 – Listar Pessoa
-5 – Pesquisar Pessoa por ID
-6 – Criadores
-7 - Sair
+    1) Crie um projeto Java, uma classe Java “Prova1” e um método main (1,0).
+    2) Desenvolva um menu com JOptionPane (preferencialmente) ou Scanner com as seguintes opções (1,0):
+    1 – Cadastrar Pessoa
+    2 - Alterar Pessoa
+    3 – Excluir Pessoa
+    4 – Listar Pessoa
+    5 – Pesquisar Pessoa por ID
+    6 – Criadores
+    7 - Sair
 
-3) Crie um vetor de Strings[50] para o Nome das Pessoas (1,0).
-4) Implemente uma forma do menu ser chamado até a opção 7 ser digitada (caso o usuário digite
-algo diferente das opções listadas acima, envie uma mensagem informando que a opção foi
-inválida e retorne ao menu) (1,0).
-5) Desenvolva a funcionalidade de Cadastro (Nome) da Pessoa utilizando o vetor (1,0).
-6) Desenvolva a funcionalidade de Alterar (Nome) da Pessoa no vetor, informando anteriormente
-o índice! Informe se for um índice inválido (abaixo de 0 ou acima de 50) (1,0).
-7) Desenvolva a funcionalidade de excluir Pessoa! Ao excluir a pessoa, todos os registros da frente
-devem ser reorganizados na posição anterior para não haver lacuna.(1,0)
-8) Liste todos as Pessoas (Posição no vetor + Nome). Não mostre os nulos! (1,0)
-9) Mostre a pessoa pelo índice digitado, caso seja um inválido, mostre ao usuário que o valor é
-incorreto. (1.0)
-10) Mostre o nome dos criadores (Nome + R.A.) deste projeto (1,0).
+    3) Crie um vetor de Strings[50] para o Nome das Pessoas (1,0).
+    4) Implemente uma forma do menu ser chamado até a opção 7 ser digitada (caso o usuário digite
+    algo diferente das opções listadas acima, envie uma mensagem informando que a opção foi
+    inválida e retorne ao menu) (1,0).
+    5) Desenvolva a funcionalidade de Cadastro (Nome) da Pessoa utilizando o vetor (1,0).
+    6) Desenvolva a funcionalidade de Alterar (Nome) da Pessoa no vetor, informando anteriormente
+    o índice! Informe se for um índice inválido (abaixo de 0 ou acima de 50) (1,0).
+    7) Desenvolva a funcionalidade de excluir Pessoa! Ao excluir a pessoa, todos os registros da frente
+    devem ser reorganizados na posição anterior para não haver lacuna.(1,0)
+    8) Liste todas as Pessoas (Posição no vetor + Nome). Não mostre os nulos! (1,0)
+    9) Mostre a pessoa pelo índice digitado, caso seja um inválido, mostre ao usuário que o valor é incorreto. (1.0)
+    10) Mostre o nome dos criadores (Nome + R.A.) deste projeto (1,0).
  */
 public class Prova1 {
     private static final Scanner SC = new Scanner(System.in);
@@ -38,8 +34,8 @@ public class Prova1 {
     public static void main(String[] args) {
         int opcao;
         do{
-            System.out.println("Escolha uma opção: " );
             System.out.println("""
+                    Escolha uma opção:
                     1 – Cadastrar Pessoa
                     2 - Alterar Pessoa
                     3 – Excluir Pessoa
@@ -47,7 +43,7 @@ public class Prova1 {
                     5 – Pesquisar Pessoa por ID
                     6 – Criadores
                     7 - Sair
-                            """);
+                    """);
             opcao = SC.nextInt();
             SC.nextLine();
             switch (opcao){
@@ -88,7 +84,6 @@ public class Prova1 {
             System.out.println("Digite o novo nome");
             NOMES[index] = SC.nextLine();
         }
-
     }
 
     private static void excluirPessoa() {
@@ -105,7 +100,6 @@ public class Prova1 {
             }
             nomesCadastrados--;
         }
-
     }
 
     private static void listarPessoa() {
